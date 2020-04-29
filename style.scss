@@ -1,0 +1,51 @@
+.wrapper{
+    overflow: hidden;
+    width: 400px;
+    border: 1px black solid;
+    margin: auto;
+}
+.textarea{
+    resize: none;
+    height: 150px;
+    width: 100%;
+}
+.button{
+    margin: 10px;
+    border: 0;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    &--black{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.719);
+    }
+    &--gray{
+        background-color: rgba(128, 128, 128, 0.89);
+    }
+    &--orange{
+        color: white;
+        background-color: orange;
+    }
+    &--wide{
+        width: 150px;
+        margin-right: 20px;
+    }
+}
+.button-block{
+    display: flex;
+    &__numbers{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: yellow;
+        width: 75%;
+    }
+    &__operators{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: orange;
+        width: 25%;
+    }
+}
+
