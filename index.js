@@ -40,29 +40,29 @@ let page =
         <TextArea />
         <ButtonsBlock>
             <ButtonsNumbers>
-                <Button />
-                <Button />
-                <Button />
-                <Button />
-                <Button />
-                <Button />
-                <Button />
-                <Button />
-                <Button />
-                <Button />
-                <Button />
-                <Button />
-                <Button wide="true" color="black" value="Hi Mike" />
-                <Button />
+                <Button color="gray" value="AC" />
+                <Button color="gray" value="+/-" />
+                <Button color="gray" value="%" />
+                <Button color="black" value="7" />
+                <Button color="black" value="8" />
+                <Button color="black" value="9" />
+                <Button color="black" value="4" />
+                <Button color="black" value="5" />
+                <Button color="black" value="6" />
+                <Button color="black" value="1" />
+                <Button color="black" value="2" />
+                <Button color="black" value="3" />
+                <Button wide="true" color="black" value="0" />
+                <Button color="black" value="," />
 
 
             </ButtonsNumbers>
             <ButtonsOperators>
-                <Button />
-                <Button />
-                <Button />
-                <Button />
-                <Button />
+                <Button color="orange" value="÷" />
+                <Button color="orange" value="×" />
+                <Button color="orange" value="-" />
+                <Button color="orange" value="+" />
+                <Button color="orange" value="=" />
             </ButtonsOperators>
         </ButtonsBlock>
     </Wrapper>
